@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV Antonius Ricky</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Poppins:wght@300;400;500;600;700;800;900&display=swap">
+</head>
+<body>
+
+    <header>
+        <a href="#"></a>
+        <ul class="navlist">
+            <li><a href="" onclick="toggleSection('hero')">Home</a></li>
+            <li><a href="#" onclick="toggleSection('about')">About</a></li>
+            <li><a href="#" onclick="toggleSection('projects')">Project</a></li>
+            <li><a href="#" onclick="toggleSection('contact')">Contact</a></li>
+        </ul>
+        <div class="bx bx-menu" id="menu-icon"></div>
+    </header>
+    
+    <section id="hero" class="hero section">
+        <div class="hero-text">
+            <h5>Best choice for your project</h5>
+            <h4>Web Developer</h4>
+            <h1>Antonius Ricky</h1>
+            <p>I'm thrilled to share with you my latest project! 🌟 Head over to my CV and explore the details of this passion-driven endeavor. From concept to execution, it's a testament to my skills and dedication.</p>
+            <a href="https://github.com/Antonius-Ricky/Instagram-Clone">Latest Project</a>
+        </div>
+        <div class="hero-img">
+            <img src="images/photo.png" alt="">
+        </div>
+    </section>
+    
+    <section id="about" class="about section" style="display: none;">
+        <div class="about-content">
+            <div class="reveal-item about-box">
+                <img src="images/photo.png" alt="Antonius Ricky">
+                <h2>About Me</h2>
+                <p>Hi, I'm Antonius Ricky, a full-stack developer currently studying at Ignatius Global School. I am passionate about web development and have been coding since 2020. Coding has seamlessly blended into my passion, creating a perfect union that drives my enthusiasm for creating innovative and efficient solutions.
+                    My journey into the world of programming has been marked by continuous learning and exploration of various technologies. I find joy in tackling challenges, transforming ideas into functional code, and staying abreast of the latest developments in the dynamic field of web development.
+                    My expertise includes HTML, CSS, JavaScript, and Python. These tools empower me to bring ideas to life, create responsive and visually appealing websites, and build robust, scalable applications. As I delve deeper into the intricacies of each language, I am excited to contribute to the ever-evolving landscape of technology.
+                    
+                    Feel free to explore my portfolio and projects to get a glimpse of my coding journey. I am always open to collaboration and eager to take on new and exciting challenges.
+                </p>
+            </div>
+        </div>
+    </section>
+    
+    <section id="contact" class="contact section" style="display: none;">
+        <div class="contact-content">
+            <h2>Contact Me</h2>
+            <div class="reveal-item contact-box">
+                <p><strong>Email:</strong> antoniusrickyigs@email.com</p>
+                <p><strong>Instagram:</strong> <a href="https://www.instagram.com/ant.rickyy/">@ant.rickyy</a></p>
+                <p><strong>GitHub:</strong> <a href="https://github.com/Antonius-Ricky">Antonius-Ricky</a></p>
+                <p><strong>Discord:</strong> ant.ricky</p>
+                <p><strong>Phone:</strong> 087748628680</p>
+            </div>
+        </div>
+    </section>
+    
+    <section id="projects" class="projects section" style="display: none;">
+        <h6 style="color: white;font-size: 45px;margin-bottom: 40px;">My Work</h6>
+        <div class="project-box" onclick="window.location.href='https://github.com/Antonius-Ricky/Discord-Gacha-Bot'">
+            <h2>Discord Gacha Bot</h2>
+            <p>
+                Introducing my Discord Gacha bot project! This unique bot adds an exciting twist to the Discord experience. Users can roll for virtual fruits inspired by the popular Blox Fruits game, and each fruit they obtain is neatly stored in their personal inventory. The interactive and engaging nature of the bot has captured the enthusiasm of all users.
+            </p>
+            <p><strong>Key Features:</strong></p>
+            <ul style="list-style-type: none; padding-left: 0;">
+                <li>Fruit Rolling: Users can roll for a variety of fruits, each with its own rarity and properties based on the Blox Fruits game.</li>
+                <li>Inventory System: The bot features a user-friendly inventory system that organizes and displays the collected fruits for each user.</li>
+                <li>Ranking System: Users can compete for the top spot on the leaderboard, showcasing their achievements and collection prowess.</li>
+                <li>Community Engagement: The bot has fostered a vibrant community where users eagerly participate in fruit rolling and share their unique collections.</li>
+            </ul>
+        </div>
+        <div class="project-box" onclick="window.location.href='https://github.com/Antonius-Ricky/Instagram-Clone'">
+            <h2>Instagram Clone</h2>
+            <p>
+                Presenting my Instagram Clone project, a web app designed to emulate the core functionalities of Instagram. This project reflects my passion for creating dynamic and feature-rich web applications.
+            </p>
+            <p><strong>Key Features:</strong></p>
+            <ul style="list-style-type: none; padding-left: 0;">
+                <li>Photo Sharing: Users can seamlessly upload and share their favorite photos with the community.</li>
+                <li>Like System: The app incorporates a familiar liking mechanism, allowing users to express appreciation for photos posted by others.</li>
+                <li>Profile Editing: Users have the flexibility to customize and edit their profiles, adding a personal touch to their online presence.</li>
+                <li>Intuitive Design: The user interface is designed to mirror the aesthetic appeal and user-friendly experience of the original Instagram platform.</li>
+            </ul>
+        </div>
+    </section>
+    
+    <div class="icons">
+        <a href="https://www.instagram.com/ant.rickyy/"><i class="ri-instagram-line"></i></a>
+        <a href="https://discord.gg/JSdnKPJWSf"><i class="ri-discord-fill"></i></a>
+        <a href="https://github.com/Antonius-Ricky"><i class="ri-github-line"></i></a>
+    </div>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="script.js"></script>
+</body>
+</html>
